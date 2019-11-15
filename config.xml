@@ -2,12 +2,12 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
-        xmlns:cdv="http://cordova.apache.org/ns/1.0">
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "by.ludi.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. Работа Люди Бай</name>
+    <name>Работа Люди Бай</name>
 
     <description>
         Люди Бай — единственный омниканальный сервис по трудоустройству в Беларуси. Вакансии публикуемые на сайте Люди Бай, отображаются более чем на 15 площадках (количество площадок ежемесячно растет) охватывая более 3,5 млн соискателей по всей Беларуси. У нас представлены только реальные вакансии от прямых работодателей. Люди Бай - работу выбирай!
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FFFF33" />
+    <preference name="SplashScreenSpinnerColor" value="#1A1A1A" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
