@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "by.ludi.app"
         versionCode = "10"
-        version     = "1.1.0">
+        version     = "1.2.0">
 
-    <name>Работа Люди Бай</name>
+    <name>LUDI.BY Работа</name>
 
     <description>
         Люди Бай — единственный омниканальный сервис по трудоустройству в Беларуси. Вакансии публикуемые на сайте Люди Бай, отображаются более чем на 15 площадках (количество площадок ежемесячно растет) охватывая более 3,5 млн соискателей по всей Беларуси. У нас представлены только реальные вакансии от прямых работодателей. Люди Бай - работу выбирай!
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#1A1A1A" />
+    <preference name="SplashScreenSpinnerColor" value="#FFF300" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/945b4f9adbf3bda1fa7c850ce5cb8f2b.png" density="ldpi" />
-        <icon src="res/android/icon/f82bfba3e61f25b3780afb4d34191527.png" density="mdpi" />
-        <icon src="res/android/icon/7b52faf8ba1f2db9b6dd63284181edc5.png" density="hdpi" />
-        <icon src="res/android/icon/286a6058587fb78d41c348f438645952.png" density="xhdpi" />
-        <icon src="res/android/icon/d95482b164fbb6f8bfd36a41dc434da0.png" density="xxhdpi" />
-        <icon src="res/android/icon/71010824cbfc35c244dad781dee0d1c0.png" density="xxxhdpi" />
+        <icon src="res/android/icon/a57b2b3f541d34c0cf0ece72282dc367.png" density="ldpi" />
+        <icon src="res/android/icon/23ce4887980e5b60d6cfb0a0014bc812.png" density="mdpi" />
+        <icon src="res/android/icon/6bb601a8d6f6852d37c2c89da9f4ddae.png" density="hdpi" />
+        <icon src="res/android/icon/cfa5d7a7b64c95e42a4de059beee75ee.png" density="xhdpi" />
+        <icon src="res/android/icon/44922d56473ace38649e19c8384d9f59.png" density="xxhdpi" />
+        <icon src="res/android/icon/ba2cd4514c71f71fc87c22e96cb75912.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/1a320e493cdaa9b808301a0b84291ce0.png" density="port-hdpi"/>
-        <splash src="res/android/screen/8c502fc4c0e08fcf974128248b5b6049.png" density="port-ldpi"/>
-        <splash src="res/android/screen/435bed1dcd1b894a16788f02388b99e8.png" density="port-mdpi"/>
-        <splash src="res/android/screen/ce95e3e7df5102e37dfe5058a48d964f.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/e17dfab1a5806236d36008a9126b353c.png" density="port-hdpi"/>
+        <splash src="res/android/screen/f68996a480977b6aecd471361884abd7.png" density="port-ldpi"/>
+        <splash src="res/android/screen/62bcea65036f58882d660f9c0c78ef62.png" density="port-mdpi"/>
+        <splash src="res/android/screen/6a9fd4c9cef93b9aafeb23020f8d2051.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -69,12 +69,12 @@
         <icon src="res/ios/icon/00ed71af42a8482e37a59099a1534cee.png" width="87" height="87" />
         <icon src="res/ios/icon/6ed2d816c43adbf732909fee1e03ac84.png" width="167" height="167" />
 
-        <splash src="res/ios/screen/7018b93b584e01ac24ccdee17ca87d23.png" />
-        <splash src="res/ios/screen/11b22517f1e98cd44d9d1dcc11de09d8.png" />
-        <splash src="res/ios/screen/e2315a36c7df36a67cd80b44e62645a4.png" />
-        <splash src="res/ios/screen/0ee1148aad4fceaaf8ce9d52096bbbed.png" />
-        <splash src="res/ios/screen/d3ee4406e8c575c8272201e9557c90b7.png" />
-        <splash src="res/ios/screen/b2eddf13cf443d70dbc50c70a74cc111.png" />
+        <splash src="res/ios/screen/1597c3f15f6faf406196c9baa7bf8f4f.png" />
+        <splash src="res/ios/screen/e242a8e2c8d160eca2976f632b26c43f.png" />
+        <splash src="res/ios/screen/d0397ed2762c51687b9557de416a6c7a.png" />
+        <splash src="res/ios/screen/b342b2f7f2278e62d38e72a600d71929.png" />
+        <splash src="res/ios/screen/12a5be45c50fba2f78c06402f3e9b979.png" />
+        <splash src="res/ios/screen/ff9d4d0b8393a6cd4b8f71ff66d8e2ea.png" />
     </platform>
 
     <platform name="winphone">
